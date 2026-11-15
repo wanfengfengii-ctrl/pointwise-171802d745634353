@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": {
+    "argv": []
+  },
+  "verify": {
+    "argv": ["python3", "-I", "tests/verify.py"]
+  },
+  "demo": {
+    "argv": ["python3", "-I", "demo.py"]
+  },
+  "benchmark": {
+    "argv": ["python3", "-I", "bench/benchmark.py"]
+  }
+}
